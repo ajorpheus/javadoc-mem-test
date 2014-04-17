@@ -23,5 +23,9 @@
       <item name="FAQ" href="faq.html"/>
       <item name="Xdoc Example" href="xdoc.html"/>
     </menu>
+
+	  <menu ref="parent" inherit="top"/>
+	  <menu ref="modules" inherit="top"/>
+	  <menu name="Maven documentation" ref="reports" inherit="bottom"/>
   </body>
 </project>
